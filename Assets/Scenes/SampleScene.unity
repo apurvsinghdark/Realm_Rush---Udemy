@@ -97,7 +97,8 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: 2dbc1d391efff864fbb5798e47b0bd52,
+    type: 2}
   m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
@@ -1290,7 +1291,7 @@ PrefabInstance:
     - target: {fileID: 4930325457815908370, guid: 412f780783d279e46b1a137c575a6acd,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -10
       objectReference: {fileID: 0}
     - target: {fileID: 4930325457815908370, guid: 412f780783d279e46b1a137c575a6acd,
         type: 3}
@@ -1332,21 +1333,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4930325457815908370, guid: 412f780783d279e46b1a137c575a6acd,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 4930325457815908370, guid: 412f780783d279e46b1a137c575a6acd,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 4930325457815908370, guid: 412f780783d279e46b1a137c575a6acd,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 10
-      objectReference: {fileID: 0}
     - target: {fileID: 8904986007550521251, guid: 412f780783d279e46b1a137c575a6acd,
         type: 3}
       propertyPath: m_Name
@@ -1354,3 +1340,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 412f780783d279e46b1a137c575a6acd, type: 3}
+--- !u!1 &3262135193465119159 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8904986007550521251, guid: 412f780783d279e46b1a137c575a6acd,
+    type: 3}
+  m_PrefabInstance: {fileID: 3262135193465119158}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3262135193465119160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3262135193465119159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccf71e7688047d4429de0f7eef733c7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gridSize: 10
